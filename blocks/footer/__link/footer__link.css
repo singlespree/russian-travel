@@ -1,0 +1,16 @@
+.footer__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 1s;
+}
+.footer__link:hover {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+.footer__link:not(:last-child) {
+  padding-right: 18px;
+}
