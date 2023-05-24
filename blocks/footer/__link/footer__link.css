@@ -12,5 +12,16 @@
   transition-duration: 0.5s;
 }
 .footer__link:not(:last-child) {
-  padding-right: 18px;
+  padding: 0 18px 0 0;
+}
+
+@media screen and (max-width: 560px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer__link:not(:last-child) {
+    padding: 0px 0px 32px 0px;
+  }
 }

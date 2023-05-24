@@ -7,3 +7,11 @@
   max-width: 360px;
   z-index: 1;
 }
+
+@media screen and (max-width: 560px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
+}

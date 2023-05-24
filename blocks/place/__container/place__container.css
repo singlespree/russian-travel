@@ -1,3 +1,36 @@
 .place__container {
   width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__container {
+    min-width: 456px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .place__container {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__container {
+    min-width: 352px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place__container {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .place__container {
+    min-width: 288px;
+    padding: 0 0 0 16px;
+    box-sizing: border-box;
+  }
 }

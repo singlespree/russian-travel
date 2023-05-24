@@ -4,3 +4,24 @@
   color: #fff;
   padding: 0 0 92px 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    padding: 0 0 90px 0;
+}
+}
+
+@media screen and (max-width: 350px) {
+  .places {
+    padding: 0 0 66px 0;
+    max-width: 280px;
+    margin: 0;
+}
+}
