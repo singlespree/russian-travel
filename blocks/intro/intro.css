@@ -3,3 +3,21 @@
   color: #fff;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0 16px 0 16px;
+  }
+}
